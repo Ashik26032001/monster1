@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="caluculator.css">
+</head>
+<body>
+    <table class="calc">
+        <tr>
+            <td colspan="3"><input class="text" type="text" id="res"></td>
+            <td><input class="btn" type="button" value="Back" onclick="back()" id="btn"/></td>
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="input(1)">1</button></td> 
+            <td><button class="btn"  onclick="input(2)">2</button></td> 
+            <td><button class="btn"  onclick="input(3)">3</button></td>
+            <td><button class="btn" onclick="operator('/')">/</button></td> 
+         </tr>
+         <tr>
+             <td><button class="btn" onclick="input(4)">4</button></td> 
+             <td><button class="btn" onclick="input(5)">5</button></td> 
+             <td><button class="btn" onclick="input(6)">6</button></td> 
+             <td><button class="btn"onclick="operator('*')">*</button></td>
+          </tr>
+          <tr>
+             <td><button class="btn" onclick="input(7)">7</button></td> 
+             <td><button class="btn" onclick="input(8)">8</button></td> 
+             <td><button class="btn" onclick="input(9)">9</button></td>
+             <td><button class="btn"onclick="operator('+')">+</button></td>
+          </tr>
+          <tr>
+             <td><button class="btn" onclick="Clr()">C</button></td> 
+             <td><button class="btn" onclick="input(0)">0</button></td> 
+             <td><button class="btn" onclick="Output()">=</button></td> 
+             <td><button class="btn"onclick="operator('-')">-</button></td>
+          </tr>
+    </table>
+    <script>
+        var show=document.getElementById("res")
+        var first;
+        var second;
+        var opera;
+        var ba;
+        
+        function input(data){
+            show.value+=data
+            
+            
+
+            
+        }
+        function Clr()
+        {
+            show.value=""
+            opera=null
+            first=null
+            
+        }
+
+        function operator(b){
+            if(opera)
+            {
+                temp=Number(show.value)
+            }
+            if(opera=='+')
+            {
+                first=first+temp
+            }
+            else if(opera=='-')
+            {
+                first=first-temp
+
+            }
+            else if(opera=='*')
+            {
+                first=first*temp
+
+            }
+            else if(opera=='/')
+            {
+                first=first/temp
+
+            }
+            else{
+
+            
+
+            first=Number(show.value)
+            opera=b
+            }
+            show.value=""
+
+            
+          
+        }
+        function Output(){
+            second=Number(show.value)
+            if(opera=='+')
+            {
+                show.value=first+second
+            }
+            else if(opera=='-')
+            {
+                show.value=first-second
+
+            }
+            else if(opera=='*')
+            {
+                show.value=first*second
+
+            }
+            else if(opera=='/')
+            {
+                show.value=first/second
+
+            }
+
+        }
+        function back(){
+            ba=show.value.slice(0,-1)
+            show.value=ba
+
+        }
+        
+    </script>
+</body>
+</html>

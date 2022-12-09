@@ -1,0 +1,26 @@
+.r {
+    color: rgb(255, 191, 127);
+    text-align: center;
+}
+
+.t {
+    color: rgb(73, 155, 74);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(92, 193, 181);
+    background-image:url("/images/img-4.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: 8px solid rgb(148, 179, 24);
+   
+}
+.a{
+    width: 110%;border: 3px solid rgb(137, 49, 109);height: 200px;}
+.abc
+{width: 30%;
+    float: left;
+border: 1px solid rgb(27, 184, 158);height: 200px;
+background-color: brown;
+background-color: gold;}

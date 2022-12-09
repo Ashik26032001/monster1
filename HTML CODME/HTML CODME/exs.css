@@ -1,0 +1,67 @@
+.btn-group {
+    color: rgb(24, 129, 59);
+    text-align: center;
+    text-decoration: none;
+    display: inline block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    
+}
+.button{
+
+        background-color: rgb(8, 32, 112);
+        border: 1px solid rgb(75, 22, 124);
+        color: white;
+        padding: 20px 20px;
+        text-align: center;
+        
+        
+        
+        display: inline block;
+        font-size: 16px;
+        text-decoration: none;
+        cursor:pointer;
+        float: left;
+        width: 25%;
+
+         
+    
+    
+}
+.t{
+    float: left;
+    padding: left;
+    width: 10%;
+    height: 10%;
+    text-align: top;
+    margin-top:  0px;
+    position: absolute;
+    top: 2px;;
+    left: 1;
+
+
+
+}
+body{
+    background-image:url("jt.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.com{
+    width: 1000px;
+    height: 30px;
+    color: black;
+}
+
+    
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+
+}
+
+

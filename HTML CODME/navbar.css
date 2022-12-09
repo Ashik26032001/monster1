@@ -1,0 +1,32 @@
+ul{list-style-type: none;
+margin: 0%;
+padding: 0%;
+overflow: hidden;
+background-color: rgb(168, 47, 43);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: darkred;
+}
+.active{
+    background-color: forestgreen;
+}
+body{
+    background-image: url(jt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+
+}

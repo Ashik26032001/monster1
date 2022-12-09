@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    background-color:black;
+    overflow: hidden;
+    
+    
+}
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+ }
+
+ .Logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left ;
+    padding-top: 10px;
+
+ }
+
+ .menu{
+    width: 500px;
+    float: left;
+    height: 70px;
+ }
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-size: 20px;
+ }
+
+ ul li a{
+    text-decoration: none;
+    color:rgb(189, 131, 24);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+ }
+
+ ul li a:hover{
+    color:gold;
+ }
+
+ .hello{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   z-index: 30px;
+   float: right;
+   
+
+   
+ }
+.h{
+   font-size: 120px;
+   
+ }
+
+ .ui{
+   position: absolute;
+   top: 400px;
+   left: 90px;
+   color: red;
+
+
+ }
+
+ .ci{
+    position: absolute;
+    top: 314px;
+    left: 37%;
+    color: black;
+    font-size: 20px;
+  
+ 
+
+ }
+ .ri{position: absolute;
+   top: 338px;
+   left: 70%;
+   color: white;
+   font-size: 20px;
+
+ }
+
+ .ki{
+    position: absolute;
+    top: 4000px;
+    left: 300px;
+    color: rgb(167, 40, 40);
+    font-size: 20px;
+    
+ }
+ .uo{ position: absolute;
+   top: 225px;
+   left: 79%;
+   color: rgb(185, 122, 27);
+   font-size: 20px;
+
+ }
+
+ 
+ .hell{ width: 100%;
+   height: 100%;
+   overflow: hidden;
+
+ }
+ 
+.yop{
+   position: relative;
+   top: 788px;
+   left: 200%;
+   right:490%;
+   color: rgb(230, 46, 46);
+   font-size: 20px;
+
+   
+}
+
+ .py{ position: absolute;
+   top: 900px;
+   left: 79%;
+   color: orange;
+   font-size: 20px;
+ }
+
+ .ok{ position: absolute;
+   top: 945px;
+   left: 80%;
+   color: orange;
+   font-size: 20px;
+
+ }
+ .hep{ width: 100%;
+   height: 100%;
+   overflow: hidden;
+ }
+
+.zk{position: absolute;
+   top: 1800px;
+   left: 79%;
+   color: orange;
+   font-size: 20px;
+
+}
+
+.pk{
+   position: absolute;
+   top: 1825px;
+   left: 82%;
+   color: orange;
+   font-size: 20px;
+
+}
+
+.hyq{ width: 100%;
+   height: 100%;
+   overflow: hidden;
+ }
+
+ .kl{
+   position: absolute;
+   top: 2500px;
+   left: 80%;
+   color: orange;
+   font-size: 25px;
+
+}
+.ca{
+   position: absolute;
+   top: 2525px;
+   left: 77%;
+   color: orange;
+   font-size: 25px;
+
+}
+
+.footer {
+   width: 100%;
+   height: 40%;
+   overflow: hidden;
+   background-color: rgb(17, 17, 17);
+   display: flex;
+   padding-top: 30px;
+   background-size: contain;
+   
+}
+
+.foot1 {
+   width: 25%;
+
+}
+
+.foot2 {
+   width: 16.6%;
+
+   padding-top: 60px;
+}
+
+.foot1 img {
+   width: 230px;
+   float: right;
+   margin-top: 80px;
+}
+
+.fcont {
+   color: #fff;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 200;
+   font-family: 'Exo', sans-serif;
+}
+
+.foot2 ul {
+   list-style: none;
+}
+
+ul li {
+   margin-top: 15px;
+}
+
+.fcont:hover {
+   color:grey;
+}
+
+.foot3 {
+   padding-top: 80px;
+   padding-left: 50px;
+}

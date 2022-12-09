@@ -1,0 +1,23 @@
+table,th,td :hover{
+    margin: 200px ;
+
+    border:1px solid rgb(75, 35, 168);
+    background-color: darksalmon;
+    border-radius: 100px 100px 100px 100px;
+
+}
+.a{text-align: center;
+    padding: 40px;
+    border-radius:200px 0px 100px;
+    background-color: darkred;
+    
+ }
+.b{text-align: center;
+padding: 40px;
+border-radius: 200px 0px 100px;
+background-color: darkorange;}
+.c{text-align: center;padding: 40px;
+background-color: indigo;}
+h1{text-align: center;}
+.z{text-align:center;padding: 40px;}
+/* th{background-color:blue;} */
